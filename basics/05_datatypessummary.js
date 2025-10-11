@@ -60,6 +60,20 @@ console.log(myYoutubename);  //first stack value
 anothername = "newchannnel";
 console.log(anothername); // now new value is inserted in stact 
 
+/*
+========= stack structure  =========
+------------------------------------
+           usertwo
+------------------------------------
+           userOne
+------------------------------------
+          lubnacodes
+------------------------------------
+          newchannnel
+------------------------------------
+          lubnacodes
+------------------------------------
+*/
 
 // ===== Example of Heap =======
 let userOne = {
@@ -73,6 +87,22 @@ let usertwo = userOne
 usertwo.email="l@gmail.com"
 console.log(userOne.email);
 console.log(usertwo.email);
+
+/* 
+--------------------------------------------------
+                       Heap                       |
+                                                  |
+                                                  |
+                             {
+    email : "user@google.com",
+    upi : "user@ypi"
+}                                                 |
+                                                  |
+                                                  |
+                                                  |
+                                                  |
+----------------------------------------------------
+*/
 
 
 
